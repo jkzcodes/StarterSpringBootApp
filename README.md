@@ -6,13 +6,13 @@ $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:
 
 **Make sure the username and password are the same as specified in your application.properties file **
 
-* Open bash to add a new database to the container that is running *
+* Open bash to add a new database to the container that is running
 $docker exec -it container_number bin/bash
 
-* Run this command to execute sql commands * 
+* Run this command to execute sql commands 
 $psql -U postgres
 
-* Create a database *
+* Create a database 
 $CREATE DATABASE demodb;
 
 * Check that the database is there
