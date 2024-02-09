@@ -19,3 +19,4 @@ $CREATE DATABASE demodb;
 $\l
 
 You can now start your Spring application and perform GET, POST, PUT, DELETE requests using your IDE or tools like Postman. :)
+Do not forget that a Postgres container has to be running for this to work!
